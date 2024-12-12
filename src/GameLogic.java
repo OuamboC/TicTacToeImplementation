@@ -1,6 +1,6 @@
 public class GameLogic {
-    private GameBoard board ; // instance class for GameBoard
-    private GamePlayer[] players; // array representing the players
+    private final GameBoard board ; // instance class for GameBoard
+    private final  GamePlayer[] players; // array representing the players
     private int currentPlayerIndex; // Index for players
 
     //Constructor to initialise the players and game board
